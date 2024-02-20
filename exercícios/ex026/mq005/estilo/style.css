@@ -34,8 +34,7 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: white;
-    color: black;
+    background-color: rgb(69, 69, 69);
 }
 
 menu {
