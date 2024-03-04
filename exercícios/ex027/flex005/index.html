@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Centralizado</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: aquamarine;
+        }
+
+        main {
+            background-color: rgb(255, 255, 255);
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        section {
+            background-color: rgb(178, 168, 187);
+            width: 180px;
+            height: 500px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.532);
+        }
+
+        section:hover {
+            background-color: blueviolet;
+        }
+
+        h1 {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: block;
+            text-align: center;
+            padding-top: 250px;
+            color: rgb(189, 196, 196);
+            font-size: 1.4em;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Tela de Login</h1>
+        </section>
+        <section>
+            <h1>Tela de Login</h1>
+        </section>
+        <section>
+            <h1>Tela de Login</h1>
+        </section>
+        <section>
+            <h1>Tela de Login</h1>
+        </section>
+    </main>
+</body>
+</html>
