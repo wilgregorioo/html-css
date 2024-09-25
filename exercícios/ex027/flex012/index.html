@@ -3,43 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexible box</title>
-    <style>
-        div.conteiner {
-            background-color: rgb(36, 145, 239);
-            display: flex;
-            flex-flow: row nowrap;
-        }
-
-        div.item {
-            background-color: aqua;
-            border: 1px solid white;
-            text-align: center;
-        }
-
-        div#cxA {
-            /* flex-grow: 1;
-            flex-shrink: 0;
-            flex-basis: 200px;
-             */
-            flex: 1 0 200px;
-        }
-
-        div#cxB {
-            flex: 1 2 200px;
-        }
-
-        div#cxC {
-            flex: 1 0 auto;
-        }
-    </style>
+    <title>Menu Flexbox</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="conteiner">
-        <div class="item" id="cxA">A</div>
-        <div class="item" id="cxB">B</div>
-        <div class="item" id="cxC">C</div>
-
-    </div>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Opção 1</a>
+            <a href="#">Opção 2</a>
+            <a href="#">Opção 3</a>
+            <a href="#">Opção 4</a>
+            <a href="#">Opção 5</a>
+            <a href="#">Opção 6</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Teste de Flexbox</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod molestias asperiores nam! Fuga quibusdam temporibus quis laboriosam asperiores numquam, unde nulla culpa nobis omnis aliquid vitae molestias voluptatem aspernatur!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo inventore quibusdam magnam quod, tempora magni rem maiores ut ipsa pariatur doloribus reprehenderit soluta necessitatibus velit nesciunt! Expedita voluptas ullam voluptate!</p>
+    </main>
 </body>
 </html>
